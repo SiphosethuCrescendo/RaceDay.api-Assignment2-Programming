@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceDay.API", "RaceDay.API.csproj", "{49FD8876-962D-4651-8930-3B601F240571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceDay.Core", "..\RaceDay.Core\RaceDay.Core.csproj", "{BE1CDF69-347B-424C-818C-3F8F4C9EF8B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceDay.Infrastructure", "..\RaceDay.Infrastructure\RaceDay.Infrastructure.csproj", "{7EEF9AA7-ECA5-4793-8223-ADEC73517E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceDay.Testss", "..\RaceDay.Testss\RaceDay.Testss.csproj", "{919F23AA-95C7-4D1B-A3D4-D99A20D97965}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\dotnet-ci.yml = ..\.github\workflows\dotnet-ci.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49FD8876-962D-4651-8930-3B601F240571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FD8876-962D-4651-8930-3B601F240571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FD8876-962D-4651-8930-3B601F240571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FD8876-962D-4651-8930-3B601F240571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1CDF69-347B-424C-818C-3F8F4C9EF8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1CDF69-347B-424C-818C-3F8F4C9EF8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1CDF69-347B-424C-818C-3F8F4C9EF8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1CDF69-347B-424C-818C-3F8F4C9EF8B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EEF9AA7-ECA5-4793-8223-ADEC73517E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEF9AA7-ECA5-4793-8223-ADEC73517E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEF9AA7-ECA5-4793-8223-ADEC73517E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEF9AA7-ECA5-4793-8223-ADEC73517E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{919F23AA-95C7-4D1B-A3D4-D99A20D97965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919F23AA-95C7-4D1B-A3D4-D99A20D97965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919F23AA-95C7-4D1B-A3D4-D99A20D97965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919F23AA-95C7-4D1B-A3D4-D99A20D97965}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74492C97-BC0E-460D-872C-7F46358B0B8D}
+	EndGlobalSection
+EndGlobal
